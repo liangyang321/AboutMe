@@ -9,7 +9,7 @@ export default function Topbar( {rightBar, setRightBar} ){
                     <a href ="#intro" className ="logo"> AL </a>
                     <div className="itemContainer">
                         <Person className = "icon"/>
-                        <span>608-6300924</span>
+                        <span>608-630-0924</span>
                     </div>
                     <div className="itemContainer">
                         <Mail className = "icon"/>
