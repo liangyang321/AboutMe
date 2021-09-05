@@ -1,7 +1,7 @@
 import './protfolio.scss'
 
-import UW from "../../images/uw.png";
-import DE from "../../images/DE.png";
+import UW from "../../images/UW.jpg";
+import DE from "../../images/DE.jpg";
 import FS from "../../images/fs.png.png";
 export default function Protfolio(){
     const data = [

@@ -1,5 +1,5 @@
 import './projects.scss'
-import PetFinder from "../../images/petFinder.png"
+import PetFinder from "../../images/pet.jpg"
 import SpaceInvader from "../../images/spaceInvader.png"
 import System from "../../images/system.png";
 import Arrow from "../../images/arrow.png";
