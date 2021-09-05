@@ -30,7 +30,7 @@ export default function Protfolio(){
     return (
         
         <div className = "protfolio" id ="protfolio">
-            <a href="https://drive.google.com/file/d/1PlxKXRA3R8liq869Lzw1_vjlUYAOe4tN/view?usp=sharing">About Me</a>
+            <a onClick={() => window.open('https://drive.google.com/file/d/1PlxKXRA3R8liq869Lzw1_vjlUYAOe4tN/view?usp=sharing')}>About Me</a>
             <div className = "container">
                 {data.map(d => (
                 <div className = "card" key = {d.id}>
@@ -38,7 +38,7 @@ export default function Protfolio(){
                     <img src= {d.logo} alt="" />
                     </div>
                     <div className = "center"> 
-                        <a href = {d.link}>{d.shcool}</a>
+                        <a onClick={() => window.open(d.link)}>{d.shcool}</a>
                     </div>
                     <div className = "bot">
                        <h3> {d.Major}   </h3>

@@ -48,7 +48,7 @@ export default function Projects(){
                                 <h2>{d.title}</h2>
                                 <p> {d.desc}
                                 </p>
-                                <a href = {d.url}>Project</a>
+                                <a onClick={() => window.open(d.url)}>Project Link</a>
                             </div>
                         </div>
                         <div className="right">

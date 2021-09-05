@@ -1,7 +1,9 @@
 import './topbar.scss'
-import {Person, Mail} from "@material-ui/icons"
+import {Person, Mail} from "@material-ui/icons";
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 export default function Topbar( {rightBar, setRightBar} ){
+    const withPointer = {cursor: 'pointer'};
     return (
         <div className = {"topbar " + (rightBar && "active")}>
             <div className="wrapper">
@@ -14,6 +16,10 @@ export default function Topbar( {rightBar, setRightBar} ){
                     <div className="itemContainer">
                         <Mail className = "icon"/>
                         <span>liangyang321@gmail.com</span>
+                    </div>
+                    <div className="itemContainer">
+                        <LinkedInIcon style={withPointer}  onClick={() => window.open('https://www.linkedin.com/in/ang-li-644394149/')}/>
+                        <span>LinkedIn</span>
                     </div>
                 </div>
                 <div className="right">
