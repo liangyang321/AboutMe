@@ -8,7 +8,7 @@ export default function Menu( {rightBar, setRightBar}){
                     <a href="#intro" onClick={()=>setRightBar(false)}>Home</a>
                 </li>
                 <li>
-                    <a href="#protfolio" onClick={()=>setRightBar(false)}>Resume</a>
+                    <a href="#protfolio" onClick={()=>setRightBar(false)}>Portfolio</a>
                 </li>
                 <li>
                     <a href="#projects" onClick={()=>setRightBar(false)}>Projects</a>
